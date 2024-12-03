@@ -16,6 +16,5 @@ fun main() {
 
     for (headLine: Element in newsHeadlines) {
         println("${headLine.id("#text").text()}\n")
-
     }
 }

@@ -15,6 +15,6 @@ fun main() {
     val newsHeadlines: Elements = doc.select("article")
 
     for (headLine: Element in newsHeadlines) {
-        println("${headLine.id("#text").text()}\n")
+        println("${headLine.id("article").text()}\n")
     }
 }
